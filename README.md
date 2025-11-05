@@ -208,7 +208,7 @@ Response: arrays `x` (space), `t` (selected times), and `u` (matrix [time][space
 
 ## License
 
-See [`LICENSE`](./LICENSE). If unspecified, we recommend using MIT for teaching and reproducibility.
+MIT.
 
 ---
 
