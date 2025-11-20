@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heat Equation Simulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Heat Diffusion Simulation</h1>
+
+  <div class="controls">
+    <label>Method:</label>
+    <select id="method">
+      <option value="FTCS">FTCS (Explicit)</option>
+      <option value="BTCS">BTCS (Implicit)</option>
+      <option value="CN">Crank–Nicolson</option>
+    </select>
+
+    <label>dx:</label><input id="dx" type="number" value="0.1" step="0.01">
+    <label>dt:</label><input id="dt" type="number" value="0.001" step="0.001">
+    <label>tmax:</label><input id="tmax" type="number" value="1.0" step="0.1">
+
+    <button id="run">Run Simulation</button>
+  </div>
+
+  <canvas id="heatCanvas" width="800" height="400"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>

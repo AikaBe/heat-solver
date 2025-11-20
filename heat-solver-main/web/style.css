@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #eee;
+  text-align: center;
+
+  background-image: url('background.png');
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+canvas {
+  border: 1px solid #444;
+  background: #222;
+  display: block;
+  margin: 0 auto;
+}
